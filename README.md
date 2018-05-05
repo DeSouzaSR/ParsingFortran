@@ -10,5 +10,5 @@ Pros:
 
 Cons:
 - If you change your parameter file (param.ini), you must change you source code.
-- You can not include comments in parameter file. Actually, is possible, but you need to create an other junk variable, like "label".
+- You can not include comments in parameter file. Actually, is possible, but you need to create one or more junk variable, like "label".
 

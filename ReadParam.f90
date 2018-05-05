@@ -1,7 +1,7 @@
 program inputs
     !--------------------------------------------------------------------------
     ! Program, in Fortran 90, to read parameters in a file
-    !   excluding one or more data
+    !   ignoring one or more data
     ! 
     ! Created by Sandro R. DeSouza <sandro.fisica@gmail.com>
     ! Date: 2018-05-05
