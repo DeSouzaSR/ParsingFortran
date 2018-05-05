@@ -6,7 +6,7 @@ Pro and Cons in this procedure
 
 Pros:
 - Simple and fast
-- Do not necessary any external program
+- No external program is required.
 
 Cons:
 - If you change your parameter file (param.ini), you must change you source code.
