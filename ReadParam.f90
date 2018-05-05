@@ -11,7 +11,7 @@ program inputs
     implicit none
     integer :: u ! unit
     integer :: j ! iteract
-    character(len=30) :: label ! To ignore variable label
+    character(len=30) :: label ! To ignore label in param.ini
     real :: a, b, c, d
     real, dimension(3) :: vec1
 	
