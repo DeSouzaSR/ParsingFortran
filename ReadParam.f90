@@ -1,4 +1,4 @@
-program inputs
+program ReadParam
     !--------------------------------------------------------------------------
     ! Program, in Fortran 90, to read parameters in a file
     !   ignoring one or more data
@@ -31,4 +31,4 @@ program inputs
     write(*,*) "d value : ", d
     write(*,*) "Vector 1: "
     write(*,*) (vec1(j), j=1,3)
-end program inputs
+end program ReadParam
