@@ -16,7 +16,7 @@ program inputs
     real, dimension(3) :: vec1
 	
     ! Read parameters 
-    open(unit = u, file = "param.dat", status = "old")
+    open(unit = u, file = "param.ini", status = "old")
     read(u,*) label, a
     read(u,*) label, b
     read(u,*) label, (vec1(j), j=1, 3)
@@ -28,7 +28,7 @@ program inputs
     d = a + b + c
 
     ! Write out results
-    write(*,*) "e : ", d
-    write(*,*) "Vector: "
+    write(*,*) "d value : ", d
+    write(*,*) "Vector 1: "
     write(*,*) (vec1(j), j=1,3)
 end program inputs
